@@ -1,0 +1,11 @@
+INDEX VERSION 1.134+C:\Facultad_Informatica\Materias3erAño\2025\1°Semestre\OOB 2\Practicas\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+839367536.index
+826464683.index
+4141862848.index
+1642517030.index
+953269187.index
+1199482621.index
+1840986400.index
+4118454837.index
+3274760708.index
