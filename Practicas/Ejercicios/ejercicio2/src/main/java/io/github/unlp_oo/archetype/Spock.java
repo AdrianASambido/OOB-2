@@ -1,12 +1,13 @@
 package io.github.unlp_oo.archetype;
 
-public class Papel implements Jugada{
+public class Spock implements Jugada{
 	
-	public Papel () {
+	
+	public Spock () {
 	}
 	
 	public String resolverSpock() {
-		return "papel";
+		return "empate";
 	}
 	
 	public String resolverLagarto() {
@@ -14,18 +15,20 @@ public class Papel implements Jugada{
 	}
 	
 	public String resolverPiedra () {
-		return "papel";
-	}
-	
-	public String resolverPapel() {
-		return "empate";
+		return "spock";
 	}
 	
 	public String resolverTijera () {
-		return "tijera"; 
+		return "spock";
 	}
+	
+	public String resolverPapel () {
+		return "papel";
+	}
+	
 	public String jugarContra(Jugada otraJugada) {
-		return otraJugada.resolverPapel();
+		return otraJugada.resolverSpock();
 	}
+
 
 }

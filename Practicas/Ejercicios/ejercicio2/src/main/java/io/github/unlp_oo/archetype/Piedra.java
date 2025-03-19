@@ -6,6 +6,15 @@ public class Piedra implements Jugada {
 	public Piedra () {
 	}
 	
+	
+	public String resolverSpock() {
+		return "spock";
+	}
+	
+	public String resolverLagarto() {
+		return "piedra";
+	}
+	
 	public String resolverPiedra () {
 		return "empate";
 	}

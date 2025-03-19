@@ -1,33 +1,34 @@
 package io.github.unlp_oo.archetype;
 
-public class Tijera implements Jugada{
+public class Lagarto implements Jugada{
+
 	
-	
-	public Tijera () {
+	public Lagarto () {	
 	}
 	
-	
 	public String resolverSpock() {
-		return "spock";
+		return "lagarto";
 	}
 	
 	public String resolverLagarto() {
-		return "tijera";
+		return "empate";
 	}
 	
 	public String resolverPiedra () {
 		return "piedra";
 	}
 	
-	public String resolverPapel() {
+	public String resolverTijera () {
 		return "tijera";
 	}
 	
-	public String resolverTijera () {
-		return "empate"; 
+	public String resolverPapel () {
+		return "lagarto";
 	}
+	
 	public String jugarContra(Jugada otraJugada) {
-		return otraJugada.resolverTijera();
+		return otraJugada.resolverLagarto();
 	}
+
 	
 }
