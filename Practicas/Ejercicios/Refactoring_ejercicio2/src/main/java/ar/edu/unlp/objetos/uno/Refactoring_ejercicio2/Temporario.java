@@ -4,11 +4,11 @@ public class Temporario extends Empleado{
 	
 	private Double cantidadHorasTrabajadas;
 
-	public Temporario(String unNombre, String unApellido, Double unsueldo,int cantidadHijos) {
-		super(unNombre, unApellido, unsueldo, 1000.00, cantidadHijos);
+	public Temporario(String unNombre, String unApellido, Double unSueldo,int cantidadHijos) {
+		super(unNombre, unApellido, unSueldo, 1000.00, cantidadHijos);
 	}
 	
-	public Double sueldo() {
+	public Double sueldoBasico() {
 		return getSueldoBasico() + (this.getCantidadHorasTrabajadas() * 500);
 	}
 
@@ -19,4 +19,5 @@ public class Temporario extends Empleado{
 	public void setCantidadHorasTrabajadas(Double cantidadHorasTrabajadas) {
 		this.cantidadHorasTrabajadas = cantidadHorasTrabajadas;
 	}	
+	
 }

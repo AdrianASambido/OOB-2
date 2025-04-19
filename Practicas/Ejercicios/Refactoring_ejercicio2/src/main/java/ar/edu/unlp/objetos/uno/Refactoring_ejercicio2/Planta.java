@@ -5,9 +5,4 @@ public class Planta extends Empleado{
 	public Planta(String unNombre, String unApellido, Double unSueldo, int cantidadHijos) {
 		super(unNombre, unApellido, unSueldo, 2000.00, cantidadHijos);
 	}	
-	
-	public Double sueldo() {
-		return getSueldoBasico();
-	}
-
 }

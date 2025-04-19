@@ -21,7 +21,7 @@ public class JuegoTest {
 		papel    = new Papel ();
 		jugador1.setMiJugada(tijera);
 		jugador2.setMiJugada(papel);	
-		juego = new Juego();
+		juego    = new Juego();
 		juego.setJugador1(jugador1);
 		juego.setJugador2(jugador2);
 	}

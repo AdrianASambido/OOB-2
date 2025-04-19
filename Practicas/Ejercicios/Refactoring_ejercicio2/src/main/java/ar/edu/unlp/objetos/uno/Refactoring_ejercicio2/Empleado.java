@@ -29,8 +29,17 @@ public class Empleado {
 	}
 	/*correjir como estaba al principio con el porcentaje para que no quede un número suelto 0.13*/
 
+	
+	public double sueldoNeto() { // template method
+		return this.basico();
+	}
+	
+	
+	private double basico() { // hook 
+		return this.sueldo;
+	}
 	public Double getSueldoBasico() {
-		return this.getSueldo() + (this.cantidadHijos * this.valor);
+		return (this.getSueldo() + (this.cantidadHijos * this.valor));
 	}
 	
 	public void setSueldo(Double otroSueldo) {
