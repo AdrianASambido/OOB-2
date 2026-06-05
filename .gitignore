@@ -1,7 +1,9 @@
+# Material que no quiero versionar
 Libros/
 StarUML/
 
 *.rar
+*.zip
 
 # Eclipse
 .metadata/
@@ -11,9 +13,18 @@ StarUML/
 
 # Maven
 target/
+**/target/
 
 # Java compilado
 *.class
 
+# Binarios Eclipse
+bin/
+**/bin/
+
 # Logs
 *.log
+
+# VS Code
+.vscode/
+
