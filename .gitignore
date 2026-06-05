@@ -2,3 +2,18 @@ Libros/
 StarUML/
 
 *.rar
+
+# Eclipse
+.metadata/
+.settings/
+.project
+.classpath
+
+# Maven
+target/
+
+# Java compilado
+*.class
+
+# Logs
+*.log
